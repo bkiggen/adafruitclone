@@ -1,0 +1,27 @@
+.header {
+  display: flex;
+  align-items: flex-end;
+  width: 100%;
+  position: fixed;
+  top: 0;
+  left: 0;
+  background-color: black;
+  height: 100px;
+  .nav {
+    height: 50px;
+  }
+  .nav li {
+    display: inline;
+    color: $siteBlue;
+    text-transform: uppercase;
+    margin-right: 7px;
+  }
+}
+//
+// ul {
+//   border: solid 1px red;
+// }
+//
+// *{
+//   border: solid 1px red;
+// }

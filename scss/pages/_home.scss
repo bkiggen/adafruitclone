@@ -1,0 +1,50 @@
+.flex-container {
+  display: flex;
+  margin-left: auto;
+  margin-right: auto;
+  flex-direction: column;
+  width: 1300px;
+}
+.flex-grid {
+  margin-top: 70px;
+  margin-bottom: 100px;
+  width: 1300px;
+  height: 760px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+.welcome-image {
+  margin-top: 200px;
+  img {
+    width: 1300px;
+  }
+}
+
+.left-div {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  width: 640px;
+
+  img, video {
+    width: 640px;
+    height: 375px;
+  }
+}
+
+.mid-div, .right-div {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  width: 310px;
+  img, video {
+    width: 310px;
+    height: 232px;
+  }
+}
+
+// *{
+//   border: 1px solid red;
+// }
